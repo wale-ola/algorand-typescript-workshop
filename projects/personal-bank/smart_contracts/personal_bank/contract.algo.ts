@@ -21,6 +21,7 @@ export class PersonalBank extends Contract {
    * The deposit amount is recorded in the sender's BoxMap.
    * If the sender already has a deposit, the amount is added to their existing balance.
    * @param payTxn - The payment transaction containing deposit information
+   * @param github - stores my GitHub handle
    * @returns The total amount deposited by the sender after this transaction
    */
   @abimethod()
